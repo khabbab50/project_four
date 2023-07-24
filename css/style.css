@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+}
+
+#menubar{
+    background: #898d8e;
+}
+.menubar ul li a:hover{
+    background: #7d9097;
+    color: #303030 !important;
+}
+.top_icon{
+    color: #03c4eb;
+}
+.top_icon i:hover{
+    color: #303030;
+}
+.carousel-item h3{
+    color: #d7794a;
+}
+.team_leader_title{
+    color: #d7794a;
+}
+.team_leader_title hr{
+    height: 2px;
+}
+.team_leader .card{
+    border: none !important;
+}
+#counter{
+    background: #1f3138;
+}
+
+
+
+/* counter section style tart */
+.sectionClass {
+    padding: 20px 0px 50px 0px;
+    position: relative;
+    display: block;
+  }
+  
+  .fullWidth {
+    width: 100% !important;
+    display: table;
+    float: none;
+    padding: 0;
+    min-height: 1px;
+    height: 100%;
+    position: relative;
+  }
+  
+  
+  .sectiontitle {
+    background-position: center;
+    margin: 30px 0 0px;
+    text-align: center;
+    min-height: 20px;
+  }
+  
+  .sectiontitle h2 {
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  .headerLine {
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: #101F2E;
+  }
+  
+  
+  .projectFactsWrap{
+      display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  #projectFacts .fullWidth{
+    padding: 0;
+  }
+  
+  .projectFactsWrap .item{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .projectFactsWrap .item p.number{
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .projectFactsWrap .item p{
+    color: #89553b;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans';
+  }
+  
+  
+  .projectFactsWrap .item span{
+    width: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .projectFactsWrap .item i{
+    vertical-align: middle;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+    color: white;
+  }
+  
+  .projectFactsWrap .item:hover span{
+    background: white;
+  }
+  
+  @media (max-width: 786px){
+    .projectFactsWrap .item {
+       flex: 0 0 50%;
+    }
+  }
+  
+/* counter section style end */
+
+
+
+#team{
+    background: url(../images/background_commone.png);
+}
+#contact{
+  background: #2d4149;
+}
+
+
+/* contuct us form desing stat */
+.fortm_title .sort_discraib{
+  color: #c0c0c0;
+}
+form label{
+  color: #8f8f8f !important;
+}
+form input{
+  background: transparent !important;
+  color: #8f8f8f !important;
+  border: none !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  border-bottom: 2px solid #8f8f8f !important;
+}
+form select{
+  background: transparent !important;
+  color: #8f8f8f !important;
+  border: none !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  border-bottom: 2px solid #8f8f8f !important;
+}
+form textarea{
+  background: transparent !important;
+  color: #8f8f8f !important;
+  border: none !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  border-bottom: 2px solid #8f8f8f !important;
+}
+form button{
+  background: #89553b !important;
+  color: #fff !important;
+  border: none !important;
+}
+/* contuct us form desing end */
+
+.gallry h1{
+  color: #a95e39 !important;
+}
+
+#fooder{
+  background: #1b2c33;
+  color: #fff !important;
+}
+.copyright i:hover{
+  background: #fff !important;
+  color: #101F2E !important;
+}
